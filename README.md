@@ -1,4 +1,4 @@
-# Network Security Specialist – Task 2
+# Network Security Specialist 
 
 ## Network Traffic Analysis
 
