@@ -1,4 +1,4 @@
-# Network Security Specialist 
+# Network Security Specialist Internship
 
 This repository contains my work for the **Network Security Specialist** virtual internship.
 
@@ -19,7 +19,7 @@ Analyzed sample network traffic using **Wireshark** and authorized sample captur
 - Kali Linux
 - Authorized Wireshark sample capture files
 
-**Report:** `Task_2_Network_Traffic_Analysis_Report.docx`
+**Report:** [Task 2 – Network Traffic Analysis Report](Task_2_Network_Traffic_Analysis_Report.docx)
 
 ---
 
@@ -33,9 +33,9 @@ Reviewed firewall access-control concepts and analyzed sample firewall rules to 
 - Firewall configuration weaknesses
 - Recommended security improvements
 
-The firewall configuration used for this analysis was a **constructed educational example**, as no configuration file was provided with the task.
+The firewall configuration used for this analysis was a constructed educational example, as no configuration file was provided with the task.
 
-**Report:** `Task_3_Firewall_Rule_Analysis_Report.docx`
+**Report:** [Task 3 – Firewall Case Study Report](Task_3_Firewall_Case_Study_Final.docx)
 
 ---
 
@@ -71,7 +71,7 @@ Performed a basic vulnerability assessment of a **local OWASP Juice Shop laborat
 - The OPTIONS response advertised several HTTP methods, including `PUT`, `PATCH` and `DELETE`.
 - Scanner results were manually checked before being included as findings.
 
-**Report:** `Task_4_Vulnerability_Assessment_Report.docx`
+**Report:** [Task 4 – Vulnerability Assessment Report](Task_4_Vulnerability_Assessment_Report.docx)
 
 ---
 
