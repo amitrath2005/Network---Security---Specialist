@@ -104,3 +104,5 @@ Tools and Technologies
 - GitHub
 
 ---
+
+This repository documents the analysis, assessment findings, and security recommendations prepared during the Network Security Specialist internship.
