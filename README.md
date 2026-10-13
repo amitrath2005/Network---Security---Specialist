@@ -19,7 +19,7 @@ Work Performed
 
 Tools Used: Wireshark, Kali Linux, authorized sample capture files.
 
-Report: "View Task 2 – Network Traffic Analysis Report" (./Task_2_Network_Traffic_Analysis_Report.docx)
+Report: [View Task 2 – Network Traffic Analysis Report](./Task_2_Network_Traffic_Analysis_Report.docx)
 
 ---
 
@@ -37,7 +37,7 @@ Work Performed
 
 The firewall configuration was constructed as an educational example because no actual configuration file was provided with the task.
 
-Report: "View Task 3 – Firewall Case Study Report" (./Task_3_Firewall_Case_Study_Final.docx)
+Report:[View Task 3 – Firewall Case Study Report](./Task_3_Firewall_Case_Study_Final.docx)
 
 ---
 
@@ -59,7 +59,7 @@ Work Performed
 
 Tools Used: Nmap, Nikto, cURL, Kali Linux, Docker, OWASP Juice Shop.
 
-Report: "View Task 4 – Vulnerability Assessment Report" (./Task_4_Vulnerability_Assessment_Report.docx)
+Report: [View Task 4 – Vulnerability Assessment Report](./Task_4_Vulnerability_Assessment_Report.docx)
 
 ---
 
@@ -88,7 +88,7 @@ Key Risk Areas
 
 Assessment Note: No actual network architecture or firewall configuration was supplied with this task. The network diagram and firewall rules were constructed specifically for this educational risk-assessment exercise.
 
-Report: "View Task 5 – Security Risk Assessment Final Report" (./Task_5_Security_Risk_Assessment_Final.docx)
+Report:  [View Task 5 – Security Risk Assessment Report](./Task_5_Security_Risk_Assessment_Final.docx)
 
 ---
 
@@ -104,5 +104,3 @@ Tools and Technologies
 - GitHub
 
 ---
-
-This repository documents the analysis, assessment findings, and security recommendations prepared during the Network Security Specialist internship.
