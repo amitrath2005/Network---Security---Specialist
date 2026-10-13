@@ -1,12 +1,13 @@
-# Network Security Specialist Internship
+Network Security Specialist Internship
 
-This repository contains my work for the **Network Security Specialist** virtual internship.
+This repository contains my work for the Network Security Specialist virtual internship.
 
-## Task 2 – Network Traffic Analysis
+Task 2 – Network Traffic Analysis
 
-Analyzed sample network traffic using **Wireshark** and authorized sample capture files.
+Analyzed sample network traffic using Wireshark to understand communication patterns and identify unusual or potentially suspicious network activity.
 
-### Analysis Performed
+Analysis Performed
+
 - Packet and protocol examination
 - Source and destination analysis
 - TCP and UDP communication analysis
@@ -14,68 +15,93 @@ Analyzed sample network traffic using **Wireshark** and authorized sample captur
 - Endpoint and conversation analysis
 - Identification of unusual communication patterns
 
-### Tools Used
+Tools Used
+
 - Wireshark
 - Kali Linux
-- Authorized Wireshark sample capture files
+- Authorized sample capture files
 
-**Report:** [Task 2 – Network Traffic Analysis Report](Task_2_Network_Traffic_Analysis_Report.docx)
-
----
-
-## Task 3 – Firewall Rule Analysis
-
-Reviewed firewall access-control concepts and analyzed sample firewall rules to identify:
-
-- Unnecessary open ports and services
-- Overly permissive access rules
-- Inbound and outbound traffic risks
-- Firewall configuration weaknesses
-- Recommended security improvements
-
-The firewall configuration used for this analysis was a constructed educational example, as no configuration file was provided with the task.
-
-**Report:** [Task 3 – Firewall Case Study Report](Task_3_Firewall_Case_Study_Final.docx)
+Report: "Task 2 – Network Traffic Analysis Report" (./Task_2_Network_Traffic_Analysis_Report.docx)
 
 ---
 
-## Task 4 – Vulnerability Assessment
+Task 3 – Firewall Case Study Analysis
 
-Performed a basic vulnerability assessment of a **local OWASP Juice Shop laboratory environment**.
+Reviewed firewall access-control concepts and analyzed a sample firewall configuration to identify unnecessary access, overly permissive rules, and potential security risks.
 
-**Target:** `127.0.0.1:3000`
+Analysis Performed
 
-### Tools Used
+- Review of sample firewall rules
+- Identification of risky access permissions
+- Analysis of unnecessary open services
+- Evaluation of firewall rule weaknesses
+- Security improvement and mitigation recommendations
+
+The firewall configuration was constructed as an educational example because no actual configuration file was provided with the task.
+
+Report: "Task 3 – Firewall Case Study Report" (./Task_3_Firewall_Case_Study_Final.docx)
+
+---
+
+Task 4 – Vulnerability Assessment
+
+Performed a basic vulnerability assessment of a local OWASP Juice Shop laboratory environment hosted using Docker.
+
+Target: "127.0.0.1:3000"
+
+Tools Used
+
 - Nmap
 - Nikto
 - cURL
 - Kali Linux
 - Docker
+- OWASP Juice Shop
 
-### Assessment Performed
+Assessment Performed
+
 - Port and service discovery
 - HTTP security-header review
 - HTTP method analysis
-- `/robots.txt` review
-- `/ftp/` directory exposure analysis
-- Manual validation of scanner results
+- Directory exposure assessment
+- Manual verification of scanner results
 - Identification of security configuration weaknesses
-- Risk assessment and remediation recommendations
+- Risk evaluation and remediation recommendations
 
-### Key Observations
-- TCP port `3000` was open on the local target.
-- `X-Content-Type-Options: nosniff` was present.
-- `X-Frame-Options: SAMEORIGIN` was present.
-- Content-Security-Policy was not observed in the tested response.
-- The `/ftp/` path exposed a directory listing containing multiple files.
-- The OPTIONS response advertised several HTTP methods, including `PUT`, `PATCH` and `DELETE`.
-- Scanner results were manually checked before being included as findings.
-
-**Report:** [Task 4 – Vulnerability Assessment Report](Task_4_Vulnerability_Assessment_Report.docx)
+Report: "Task 4 – Vulnerability Assessment Report" (./Task_4_Vulnerability_Assessment_Report.docx)
 
 ---
 
-## Tools & Technologies
+Task 5 – Security Report & Documentation
+
+Prepared a risk assessment of a representative sample network environment to identify, evaluate, and prioritize security risks based on likelihood and potential impact.
+
+Assessment Performed
+
+- Created a sample network architecture
+- Documented example IP addresses and network zones
+- Developed a sample firewall configuration for assessment purposes
+- Identified six potential security risks
+- Evaluated the likelihood and impact of each risk
+- Assigned risk levels and prioritized findings
+- Recommended security controls and mitigation measures
+
+Key Risk Areas
+
+- Overly permissive firewall rules
+- Guest network access to internal resources
+- Broad employee access to database services
+- Internet-facing web server exposure
+- Insufficient centralized security monitoring
+- Dependence on perimeter firewall controls
+
+Assessment note: No actual network architecture or firewall configuration was supplied with Task 5. The network diagram and firewall rules were therefore constructed specifically for this educational risk-assessment exercise.
+
+Report: "Task 5 – Security Risk Assessment Final Report" (./Task_5_Security_Risk_Assessment_Final.docx)
+
+---
+
+Tools & Technologies
 
 - Kali Linux
 - Wireshark
@@ -83,5 +109,7 @@ Performed a basic vulnerability assessment of a **local OWASP Juice Shop laborat
 - Nikto
 - cURL
 - Docker
-- GitHub
 - OWASP Juice Shop
+- GitHub
+
+---
