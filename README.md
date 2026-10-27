@@ -4,25 +4,26 @@ Analyzed sample network traffic to understand communication patterns, protocols,
 
 Work Performed
 
-- Examined sample packet captures in Wireshark.
+- Examined sample packet captures using Wireshark.
 - Reviewed network protocols and packet details.
 - Observed traffic patterns and communication behavior.
-- Documented findings and security observations.
+- Documented network traffic findings and security observations.
 
 Report: "View Task 2 – Network Traffic Analysis Report" (./Task_2_Network_Traffic_Analysis_Report.docx)
 
 Task 3 – Firewall Case Study
 
-Prepared a firewall case study covering traffic filtering, example firewall rules, and network access-control considerations.
+Prepared a firewall case study to examine firewall concepts, traffic filtering, example rules, and network access-control considerations.
 
 Work Performed
 
-- Reviewed firewall concepts and filtering behavior.
-- Prepared illustrative firewall rules.
-- Examined access-control principles and security implications.
+- Reviewed firewall concepts and traffic-filtering principles.
+- Developed example firewall rules for the case study.
+- Examined network access-control considerations.
+- Identified security implications of firewall configurations.
 - Documented recommendations for improving firewall security.
 
-Assessment Note: The firewall rules are educational examples, not a verified configuration from a real production network.
+Assessment Note: The firewall rules are educational examples. No actual production firewall configuration was supplied for this task.
 
 Report: "View Task 3 – Firewall Case Study Report" (./Task_3_Firewall_Case_Study_Final.docx)
 
@@ -32,11 +33,12 @@ Performed a controlled vulnerability-assessment exercise using OWASP Juice Shop 
 
 Work Performed
 
-- Tested the local application at "127.0.0.1:3000".
+- Set up and assessed the local OWASP Juice Shop application at "127.0.0.1:3000".
 - Used Nmap to inspect the target service.
 - Used Nikto to review potential web-server security issues.
 - Used cURL to inspect HTTP responses and headers.
-- Reviewed directory-listing exposure and HTTP method configuration.
+- Examined directory-listing exposure.
+- Reviewed advertised HTTP methods and security-related response headers.
 - Compared scanner output with direct observations where possible.
 - Documented findings and remediation recommendations.
 
@@ -45,9 +47,9 @@ Key Areas Examined
 - Web directory-listing exposure.
 - HTTP methods and configuration.
 - Security-related HTTP response headers.
-- Verification of scanner findings.
+- Manual verification of scanner findings.
 
-Assessment Note: Testing was conducted against the local lab application. Scanner findings were not automatically treated as confirmed vulnerabilities.
+Assessment Note: Testing was conducted against the local lab application. Scanner output was not automatically treated as proof of an exploitable vulnerability.
 
 Report: "View Task 4 – Vulnerability Assessment Report" (./Task_4_Vulnerability_Assessment_Report.docx)
 
@@ -91,9 +93,9 @@ Work Performed
 - Reviewed system logs and resource usage.
 - Verified the availability of Nmap, Wireshark, TShark, and tcpdump.
 - Captured network traffic using tcpdump.
-- Saved and analyzed a PCAP file using TShark.
-- Verified the capture file format, ownership, and permissions.
-- Documented findings and security recommendations.
+- Saved a packet capture file and analyzed its protocol hierarchy using TShark.
+- Verified the PCAP file format, ownership, and permissions.
+- Documented findings, limitations, and security recommendations.
 
 Key Areas Examined
 
