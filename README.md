@@ -1,71 +1,59 @@
-Network Security Specialist Internship
-
-This repository contains my work for the Network Security Specialist virtual internship, including network traffic analysis, firewall rule analysis, vulnerability assessment, and security risk assessment.
-
----
-
 Task 2 – Network Traffic Analysis
 
-Analyzed sample network traffic using Wireshark to understand communication patterns and identify unusual or potentially suspicious network activity.
+Analyzed sample network traffic to understand communication patterns, protocols, and packet-level behavior using Wireshark.
 
 Work Performed
 
-- Examined packets and network protocols.
-- Reviewed source and destination information.
-- Analyzed TCP and UDP communication.
-- Examined protocol hierarchy, endpoints, and conversations.
-- Identified unusual or repetitive communication patterns.
-- Documented observations and potential security concerns.
+- Examined sample packet captures in Wireshark.
+- Reviewed network protocols and packet details.
+- Observed traffic patterns and communication behavior.
+- Documented findings and security observations.
 
-Tools Used: Wireshark, Kali Linux, authorized sample capture files.
+Report: "View Task 2 – Network Traffic Analysis Report" (./Task_2_Network_Traffic_Analysis_Report.docx)
 
-Report: [View Task 2 – Network Traffic Analysis Report](./Task_2_Network_Traffic_Analysis_Report.docx)
+Task 3 – Firewall Case Study
 
----
-
-Task 3 – Firewall Case Study Analysis
-
-Reviewed sample firewall rules to identify unnecessary access, overly permissive permissions, and potential network security risks.
+Prepared a firewall case study covering traffic filtering, example firewall rules, and network access-control considerations.
 
 Work Performed
 
-- Reviewed example firewall access-control rules.
-- Identified unnecessary open services and risky permissions.
-- Examined the risks of overly broad access rules.
-- Considered the importance of firewall rule order.
-- Recommended improvements based on least-privilege access.
+- Reviewed firewall concepts and filtering behavior.
+- Prepared illustrative firewall rules.
+- Examined access-control principles and security implications.
+- Documented recommendations for improving firewall security.
 
-The firewall configuration was constructed as an educational example because no actual configuration file was provided with the task.
+Assessment Note: The firewall rules are educational examples, not a verified configuration from a real production network.
 
-Report:[View Task 3 – Firewall Case Study Report](./Task_3_Firewall_Case_Study_Final.docx)
-
----
+Report: "View Task 3 – Firewall Case Study Report" (./Task_3_Firewall_Case_Study_Final.docx)
 
 Task 4 – Vulnerability Assessment
 
-Performed a basic vulnerability assessment of a locally hosted OWASP Juice Shop laboratory environment using Docker.
-
-Target: "127.0.0.1:3000"
+Performed a controlled vulnerability-assessment exercise using OWASP Juice Shop hosted locally in a lab environment.
 
 Work Performed
 
-- Checked port availability using Nmap.
-- Used Nikto for initial web-server checks.
-- Reviewed HTTP security headers using cURL.
-- Examined HTTP methods and directory exposure.
-- Manually verified relevant scanner observations.
-- Identified potential security configuration weaknesses.
-- Documented findings, risk levels, and remediation recommendations.
+- Tested the local application at "127.0.0.1:3000".
+- Used Nmap to inspect the target service.
+- Used Nikto to review potential web-server security issues.
+- Used cURL to inspect HTTP responses and headers.
+- Reviewed directory-listing exposure and HTTP method configuration.
+- Compared scanner output with direct observations where possible.
+- Documented findings and remediation recommendations.
 
-Tools Used: Nmap, Nikto, cURL, Kali Linux, Docker, OWASP Juice Shop.
+Key Areas Examined
 
-Report: [View Task 4 – Vulnerability Assessment Report](./Task_4_Vulnerability_Assessment_Report.docx)
+- Web directory-listing exposure.
+- HTTP methods and configuration.
+- Security-related HTTP response headers.
+- Verification of scanner findings.
 
----
+Assessment Note: Testing was conducted against the local lab application. Scanner findings were not automatically treated as confirmed vulnerabilities.
+
+Report: "View Task 4 – Vulnerability Assessment Report" (./Task_4_Vulnerability_Assessment_Report.docx)
 
 Task 5 – Security Risk Assessment
 
-Prepared a risk assessment of a representative sample network environment to identify, evaluate, and prioritize security risks according to their likelihood and potential impact.
+Prepared a risk assessment of a representative sample network environment to identify, evaluate, and prioritize risks based on likelihood and potential impact.
 
 Work Performed
 
@@ -86,21 +74,36 @@ Key Risk Areas
 - Insufficient centralized security monitoring.
 - Dependence on perimeter firewall controls.
 
-Assessment Note: No actual network architecture or firewall configuration was supplied with this task. The network diagram and firewall rules were constructed specifically for this educational risk-assessment exercise.
+Assessment Note: No actual network architecture or firewall configuration was supplied with this task. The architecture and rules were constructed specifically for this educational risk-assessment exercise.
 
-Report:  [View Task 5 – Security Risk Assessment Report](./Task_5_Security_Risk_Assessment_Final.docx)
+Report: "View Task 5 – Security Risk Assessment Report" (./Task_5_Security_Risk_Assessment_Final.docx)
 
----
+Task 6 – Final Network Security Capstone
 
-Tools and Technologies
+Documented practical network-security practices and performed hands-on checks in a local Kali Linux environment.
 
-- Kali Linux
-- Wireshark
-- Nmap
-- Nikto
-- cURL
-- Docker
-- OWASP Juice Shop
-- GitHub
+Work Performed
 
----
+- Inspected network interfaces, IP addressing, and routing information.
+- Reviewed listening sockets and system resources.
+- Examined existing iptables and nftables rules without modifying them.
+- Checked DNS configuration and hostname resolution.
+- Reviewed system logs and resource usage.
+- Verified the availability of Nmap, Wireshark, TShark, and tcpdump.
+- Captured network traffic using tcpdump.
+- Saved and analyzed a PCAP file using TShark.
+- Verified the capture file format, ownership, and permissions.
+- Documented findings and security recommendations.
+
+Key Areas Examined
+
+- Network configuration and routing.
+- Firewall and Docker networking rules.
+- DNS resolution and system logging.
+- TCP, TLS, UDP, and DNS traffic.
+- Packet-capture handling and access permissions.
+- Network segmentation, least privilege, monitoring, and secure configuration.
+
+Assessment Note: The findings describe the local Kali Linux lab environment, not BSP's internal network. The packet sample did not establish malicious activity.
+
+Report: "View Task 6 – Final Network Security Capstone Report" (./Task_6_Network_Security_Capstone_Final_Report.docx)
