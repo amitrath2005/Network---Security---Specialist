@@ -146,7 +146,7 @@ Research practical network-security practices and perform hands-on checks to und
 - Secure configuration, monitoring, and logging
 
 ### Assessment Note
-The observations represent the local Kali Linux lab environment, not BSP's internal network. The packet sample did not establish malicious activity. The attempted PCAP permission change was unsuccessful and was documented accordingly.
+The observations represent the local Kali Linux lab environment. The packet sample did not establish malicious activity. The attempted PCAP permission change was unsuccessful and was documented accordingly.
 
 ### Report
 [Task 6 – Final Network Security Capstone Report](./Task_6_Network_Security_Capstone_Final_Report.docx)
@@ -168,6 +168,3 @@ The observations represent the local Kali Linux lab environment, not BSP's inter
 
 ---
 
-## Disclaimer
-
-This repository contains internship reports, controlled lab exercises, and educational examples. Constructed network architectures and sample firewall rules are identified as illustrative. The practical work does not represent a security assessment of BSP's production network or any other organization's internal infrastructure.
