@@ -9,7 +9,7 @@ Work Performed
 - Observed traffic patterns and communication behavior.
 - Documented network traffic findings and security observations.
 
-Report: "View Task 2 – Network Traffic Analysis Report" (./Task_2_Network_Traffic_Analysis_Report.docx)
+Report: "View Task 2 – Network Traffic Analysis Report" [./Task_2_Network_Traffic_Analysis_Report.docx]
 
 Task 3 – Firewall Case Study
 
